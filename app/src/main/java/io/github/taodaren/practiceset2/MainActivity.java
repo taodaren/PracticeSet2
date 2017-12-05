@@ -14,6 +14,11 @@ public class MainActivity extends AppCompatActivity {
         display1("This is Box 1.");
         display2("And this is Box 2.");
         display3("And look! Box 3!");
+
+        int dollars = 40;
+        int dollarsToYen = 119;
+        int yen = dollarsToYen * dollars;
+        display(yen);
     }
 
     /**
